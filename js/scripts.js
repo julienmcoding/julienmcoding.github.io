@@ -32,3 +32,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function bigImg(x) {
+    x.style.height = "225px";
+    x.style.width = "225px";
+};
+  
+function normalImg(x) {
+    x.style.height = "150px";
+    x.style.width = "150px";
+};
